@@ -17,7 +17,11 @@ Au final la liste devra ressembler à :
 */
 
 function theaterSieges() {
-  // Your code here !
-}
+const columns=26;
+const seatsInColumn=100 ;
+for (let i=1; i<= columns * seatsInColumn; i++){
+  const column= Math.ceil(i/seatsInColumn)
+  const seat = i % seatsInColumn || seatsInColumn;}
+};
 
 console.log(theaterSieges());
